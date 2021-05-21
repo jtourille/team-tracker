@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "runteam"
+version = "0.1.0"
+description = ""
+authors = ["Julien Tourille <julien.tourille@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+html2image = "^1.1.2"
+selenium = "^3.141.0"
+beautifulsoup4 = "^4.9.3"
+fastapi = "^0.65.1"
+uvicorn = {extras = ["standard"], version = "^0.13.4"}
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^3.0.15"
+black = "^21.5b1"
+flake8 = "^3.9.2"
+isort = "^5.8.0"
+pre-commit = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
